@@ -1,0 +1,420 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #dbeafe, #ffffff, #ede9fe);
+}
+.card {
+  width: 100%;
+  max-width: 760px;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Quiz header (question screen) - background color applied inline by QuestionCard.tsx */
+.header {
+  color: #fff;
+  padding: 24px 30px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.timer {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+.progressBar {
+  width: 100%;
+  height: 10px;
+  margin-top: 18px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.progress {
+  height: 100%;
+  background: #facc15;
+  transition: width 0.3s ease;
+}
+
+.body {
+  padding: 30px;
+}
+.question {
+  color: #111827;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 28px;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+/* Base option style; selected-option color is applied inline by QuestionCard.tsx */
+.option {
+  width: 100%;
+  padding: 16px 20px;
+  border: 2px solid #d1d5db;
+  border-radius: 12px;
+  background: #fff;
+  color: #1f2937;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+.option:hover:not(:disabled) {
+  border-color: #2563eb;
+  background: #eff6ff;
+  transform: translateY(-2px);
+}
+.option:disabled {
+  cursor: default;
+}
+
+.buttonArea {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+/* Base button style; background color is applied inline by each screen */
+.nextButton {
+  width: 100%;
+  max-width: 320px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 14px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.nextButton:hover {
+  filter: brightness(0.92);
+}
+.nextButton:disabled {
+  background: #93c5fd;
+  cursor: not-allowed;
+}
+
+/* Base back-link style; border/text color is applied inline by each screen */
+.backLink {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin: 12px auto 0;
+  text-align: center;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 12px 30px;
+  transition: 0.2s;
+}
+.backLink:hover {
+  background: #f9fafb;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Topic selection screen                                                  */
+/* ---------------------------------------------------------------------- */
+.topicHero {
+  background: linear-gradient(135deg, #1e293b, #334155);
+  color: #fff;
+  padding: 44px 30px 36px;
+  text-align: center;
+}
+.topicEmoji {
+  font-size: 2.8rem;
+  display: block;
+  margin-bottom: 8px;
+}
+.topicTitle {
+  margin: 0 0 8px;
+  font-size: 2.1rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.topicSubtitle {
+  margin: 0;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.topicGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+/* Base topic card style; background color is applied inline by TopicSelect.tsx */
+.topicCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 20px;
+  border: none;
+  border-radius: 16px;
+  color: #fff;
+  cursor: pointer;
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: inherit;
+}
+.topicCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+.topicCardIcon {
+  font-size: 1.8rem;
+  margin-bottom: 4px;
+}
+.topicCardName {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+.topicCardDescription {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.4;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Name entry screen - background color applied inline by NameEntry.tsx    */
+/* ---------------------------------------------------------------------- */
+.nameHero {
+  color: #fff;
+  padding: 48px 30px 40px;
+  text-align: center;
+}
+.nameEmoji {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 10px;
+}
+.nameTitle {
+  margin: 0 0 10px;
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.nameSubtitle {
+  margin: 0;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.nameForm {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  max-width: 360px;
+  margin: 0 auto;
+}
+.nameLabel {
+  font-size: 13px;
+  font-weight: 700;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+}
+.nameInput {
+  width: 100%;
+  padding: 16px 18px;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 17px;
+  color: #111827;
+  background: #f9fafb;
+  outline: none;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+  margin-bottom: 14px;
+}
+.nameInput:focus {
+  border-color: #2563eb;
+  background: #fff;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Result + leaderboard screen - hero color applied inline by ResultScreen.tsx */
+/* ---------------------------------------------------------------------- */
+.resultHero {
+  color: #fff;
+  padding: 40px 30px 34px;
+  text-align: center;
+}
+.resultBadge {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.18);
+  padding: 6px 16px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+.resultScoreCircle {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  border: 4px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.resultScoreNumber {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.resultScoreDivider {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 2px;
+}
+.resultPercentage {
+  margin: 18px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.leaderboardTitle {
+  margin: 0 0 16px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111827;
+  text-align: center;
+}
+.leaderboardEmpty {
+  text-align: center;
+  color: #6b7280;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 24px 0;
+  margin-bottom: 8px;
+}
+.leaderboardList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+/* Base row style; active-row border/background color applied inline by ResultScreen.tsx */
+.leaderboardRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  background: #f9fafb;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+/* Base rank style; text color applied inline by ResultScreen.tsx */
+.leaderboardRank {
+  font-weight: 700;
+  width: 32px;
+  font-size: 16px;
+  text-align: center;
+}
+.leaderboardName {
+  flex: 1;
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 15px;
+}
+.leaderboardScore {
+  font-weight: 700;
+  color: #111827;
+  font-size: 15px;
+}
+.leaderboardDivider {
+  text-align: center;
+  color: #9ca3af;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  padding: 2px 0;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Responsive                                                               */
+/* ---------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+  .header {
+    padding: 20px;
+  }
+  .header h1 {
+    font-size: 1.6rem;
+  }
+  .info {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .body {
+    padding: 22px;
+  }
+  .question {
+    font-size: 1.45rem;
+  }
+  .option {
+    font-size: 16px;
+    padding: 14px 16px;
+  }
+  .nextButton {
+    width: 100%;
+  }
+  .nameHero,
+  .topicHero {
+    padding: 36px 22px 30px;
+  }
+  .nameTitle,
+  .topicTitle {
+    font-size: 1.8rem;
+  }
+  .resultHero {
+    padding: 30px 22px 26px;
+  }
+  .resultScoreCircle {
+    width: 110px;
+    height: 110px;
+  }
+  .resultScoreNumber {
+    font-size: 2.1rem;
+  }
+  .topicGrid {
+    grid-template-columns: 1fr;
+  }
+}

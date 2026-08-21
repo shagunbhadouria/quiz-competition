@@ -1,0 +1,342 @@
+{
+  "id": "tech",
+  "name": "Tech",
+  "description": "Computers, the internet, and software basics",
+  "icon": "💻",
+  "colors": {
+    "primary": "#2563eb",
+    "secondary": "#4f46e5"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does CPU stand for?",
+      "options": [
+        "Central Process Unit",
+        "Central Processing Unit",
+        "Computer Personal Unit",
+        "Central Processor Utility"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "What does HTML stand for?",
+      "options": [
+        "HyperText Markup Language",
+        "HighText Markup Language",
+        "HyperText Machine Language",
+        "HyperTransfer Markup Language"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "Which company developed the Windows operating system?",
+      "options": [
+        "Apple",
+        "Google",
+        "Microsoft",
+        "IBM"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "What does RAM stand for?",
+      "options": [
+        "Random Access Memory",
+        "Read Access Memory",
+        "Random Active Memory",
+        "Read Active Module"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "Which of these is a programming language?",
+      "options": [
+        "Photoshop",
+        "Python",
+        "Excel",
+        "Windows"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "What does URL stand for?",
+      "options": [
+        "Uniform Resource Locator",
+        "Universal Reference Link",
+        "Uniform Reference Locator",
+        "Universal Resource Link"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "Who is known as the founder of Microsoft?",
+      "options": [
+        "Steve Jobs",
+        "Elon Musk",
+        "Bill Gates",
+        "Mark Zuckerberg"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "What does WWW stand for?",
+      "options": [
+        "World Wide Web",
+        "World Wide Wire",
+        "Web Wide World",
+        "Wide World Web"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "question": "Which company created the iPhone?",
+      "options": [
+        "Samsung",
+        "Apple",
+        "Nokia",
+        "Sony"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "question": "What does PDF stand for?",
+      "options": [
+        "Portable Document Format",
+        "Personal Document File",
+        "Printed Document Format",
+        "Public Document File"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 11,
+      "question": "Which symbol is used for comments in Python (single line)?",
+      "options": [
+        "//",
+        "#",
+        "<!--",
+        "**"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "What does GPU stand for?",
+      "options": [
+        "General Processing Unit",
+        "Graphics Processing Unit",
+        "Graphic Program Unit",
+        "General Program Utility"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "Which of these is an operating system?",
+      "options": [
+        "Linux",
+        "Chrome",
+        "MySQL",
+        "Photoshop"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "What does USB stand for?",
+      "options": [
+        "Universal Serial Bus",
+        "United Serial Bus",
+        "Universal System Bus",
+        "Unified Serial Bus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 15,
+      "question": "Which company owns Google?",
+      "options": [
+        "Meta",
+        "Alphabet",
+        "Amazon",
+        "Microsoft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "What does AI stand for?",
+      "options": [
+        "Automated Interface",
+        "Artificial Intelligence",
+        "Applied Informatics",
+        "Auto Integration"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "question": "Which file extension is used for JavaScript files?",
+      "options": [
+        ".js",
+        ".java",
+        ".jv",
+        ".jsx"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 18,
+      "question": "What does CSS stand for?",
+      "options": [
+        "Cascading Style Sheets",
+        "Computer Style Sheets",
+        "Creative Style System",
+        "Colorful Style Sheets"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "question": "Which of these is a web browser?",
+      "options": [
+        "Firefox",
+        "Excel",
+        "Photoshop",
+        "Spotify"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 20,
+      "question": "What does SQL stand for?",
+      "options": [
+        "Structured Query Language",
+        "Simple Query Language",
+        "Standard Query Logic",
+        "Sequential Query Language"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 21,
+      "question": "Which company developed the Android operating system?",
+      "options": [
+        "Apple",
+        "Google",
+        "Samsung",
+        "Microsoft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "What does Wi-Fi commonly refer to?",
+      "options": [
+        "Wireless Fidelity",
+        "Wired Finance",
+        "Wide Fiber",
+        "Wireless File"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "question": "Which of these is a version control system?",
+      "options": [
+        "Git",
+        "Docker",
+        "React",
+        "Node"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 24,
+      "question": "What does RGB stand for in colors?",
+      "options": [
+        "Red Green Blue",
+        "Red Grey Black",
+        "Right Green Bottom",
+        "Red Gold Black"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "question": "Which company created the social media platform Facebook?",
+      "options": [
+        "Google",
+        "Meta",
+        "Twitter",
+        "Amazon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "What does IP address stand for?",
+      "options": [
+        "Internet Protocol",
+        "Internal Process",
+        "Internet Program",
+        "Information Protocol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 27,
+      "question": "Which of these is a database management system?",
+      "options": [
+        "MySQL",
+        "Figma",
+        "Slack",
+        "Canva"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 28,
+      "question": "What does HTTP stand for?",
+      "options": [
+        "HyperText Transfer Protocol",
+        "HighText Transfer Protocol",
+        "HyperText Transmission Process",
+        "HyperTransfer Text Protocol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 29,
+      "question": "Which shortcut key is commonly used to copy text?",
+      "options": [
+        "Ctrl + C",
+        "Ctrl + V",
+        "Ctrl + X",
+        "Ctrl + Z"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 30,
+      "question": "What does VPN stand for?",
+      "options": [
+        "Virtual Private Network",
+        "Virtual Public Network",
+        "Verified Private Network",
+        "Virtual Personal Network"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

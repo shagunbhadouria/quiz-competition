@@ -1,0 +1,342 @@
+{
+  "id": "sports",
+  "name": "Sports",
+  "description": "Games, athletes, and sporting records",
+  "icon": "🏆",
+  "colors": {
+    "primary": "#ea580c",
+    "secondary": "#dc2626"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many players are on a standard soccer team on the field?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "In which sport would you perform a slam dunk?",
+      "options": [
+        "Volleyball",
+        "Basketball",
+        "Tennis",
+        "Badminton"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "How often are the Summer Olympic Games held?",
+      "options": [
+        "Every 2 years",
+        "Every 3 years",
+        "Every 4 years",
+        "Every 5 years"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "Which country is credited with inventing cricket?",
+      "options": [
+        "Australia",
+        "India",
+        "England",
+        "South Africa"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "question": "How many rings are on the Olympic flag?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "question": "In tennis, what is a score of zero called?",
+      "options": [
+        "Nil",
+        "Love",
+        "Zero",
+        "Duck"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "question": "Which sport is known as 'the beautiful game'?",
+      "options": [
+        "Basketball",
+        "Football/Soccer",
+        "Cricket",
+        "Rugby"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "How many players are on a standard basketball team on the court?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "In which sport is the term 'love' used to indicate a zero score?",
+      "options": [
+        "Badminton",
+        "Squash",
+        "Tennis",
+        "Table tennis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "What shape is a football (soccer) pitch typically?",
+      "options": [
+        "Square",
+        "Circular",
+        "Rectangular",
+        "Oval"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "question": "Which country has won the most FIFA World Cups as of 2022?",
+      "options": [
+        "Germany",
+        "Argentina",
+        "Brazil",
+        "Italy"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 12,
+      "question": "In boxing, how many rounds are typically in a professional championship fight?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "Which equipment is used to play golf?",
+      "options": [
+        "Racket",
+        "Bat",
+        "Club",
+        "Stick"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 14,
+      "question": "What is the maximum score possible in a single frame of ten-pin bowling?",
+      "options": [
+        "10",
+        "20",
+        "30",
+        "50"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "In which sport do players use a shuttlecock?",
+      "options": [
+        "Tennis",
+        "Badminton",
+        "Squash",
+        "Table tennis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "question": "How many players are on a standard volleyball team on the court?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "question": "Which country hosted the 2016 Summer Olympics?",
+      "options": [
+        "China",
+        "United Kingdom",
+        "Brazil",
+        "Japan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "question": "What is the national sport of Japan?",
+      "options": [
+        "Judo",
+        "Karate",
+        "Sumo wrestling",
+        "Kendo"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "question": "In cricket, how many players make up one team?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 20,
+      "question": "Which sport uses a term called 'checkmate'?",
+      "options": [
+        "Carrom",
+        "Chess",
+        "Checkers",
+        "Ludo"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 21,
+      "question": "What is the maximum number of players allowed on an ice hockey team on the ice at once?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "question": "In which sport would you use the term 'birdie'?",
+      "options": [
+        "Tennis",
+        "Golf",
+        "Cricket",
+        "Baseball"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "question": "Which athlete is known as one of the greatest sprinters of all time, from Jamaica?",
+      "options": [
+        "Carl Lewis",
+        "Usain Bolt",
+        "Michael Johnson",
+        "Justin Gatlin"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 24,
+      "question": "What is the term for scoring three goals in a single soccer match by one player?",
+      "options": [
+        "Double",
+        "Hat-trick",
+        "Triple play",
+        "Grand slam"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "question": "Which sport is played at Wimbledon?",
+      "options": [
+        "Cricket",
+        "Tennis",
+        "Golf",
+        "Badminton"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "question": "In American football, how many points is a touchdown worth?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 27,
+      "question": "Which country invented table tennis?",
+      "options": [
+        "China",
+        "Japan",
+        "England",
+        "United States"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 28,
+      "question": "How long is a marathon race approximately?",
+      "options": [
+        "21 km",
+        "32 km",
+        "42 km",
+        "50 km"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 29,
+      "question": "Which trophy is awarded to the winner of the football World Cup?",
+      "options": [
+        "The Ashes",
+        "The FIFA World Cup Trophy",
+        "The Champions Cup",
+        "The Golden Boot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 30,
+      "question": "What term describes a score of one under par in golf?",
+      "options": [
+        "Eagle",
+        "Bogey",
+        "Birdie",
+        "Albatross"
+      ],
+      "correctIndex": 2
+    }
+  ]
+}
